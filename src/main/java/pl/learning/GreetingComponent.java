@@ -1,4 +1,4 @@
-package pl.learning.component;
+package pl.learning;
 
 import java.time.LocalDateTime;
 
@@ -6,7 +6,7 @@ public class GreetingComponent {
 
     LocalDateTime creationDate;
 
-   public GreetingComponent (){
+   GreetingComponent (){
         creationDate = LocalDateTime.now();
     }
 
