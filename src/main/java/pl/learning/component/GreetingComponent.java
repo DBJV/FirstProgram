@@ -32,4 +32,12 @@ public class GreetingComponent {
     public int returnNumber (int x){
         return x;
     }
+    public int division (int x, int y){
+        int z = x / y;
+        return z;
+    }
+    public int multiplication (int x, int y){
+        int z = x * y;
+        return z;
+    }
 }
