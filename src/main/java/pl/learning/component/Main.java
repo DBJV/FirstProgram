@@ -1,8 +1,6 @@
 package pl.learning.component;
 
-import pl.learning.component.GreetingComponent;
-
-import java.time.LocalDateTime;
+import pl.learning.component.greeting.GreetingComponent;
 
 public class Main {
     public static void main (String []args) throws InterruptedException {

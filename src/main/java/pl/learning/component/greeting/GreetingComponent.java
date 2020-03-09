@@ -1,10 +1,10 @@
-package pl.learning.component;
+package pl.learning.component.greeting;
 
 import java.time.LocalDateTime;
 
-public class GreetingComponent {
+public class GreetingComponent implements GreetingComponentAbstract{
 
-    private LocalDateTime creationDate; //deklaracja pola creationDate
+    protected LocalDateTime creationDate; //deklaracja pola creationDate
 
     public GreetingComponent() {
         creationDate = LocalDateTime.now();
